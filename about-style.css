@@ -16,6 +16,34 @@ header {
   padding-top: 10px;
 }
 
+#mobile-menu {
+  display: none;
+  flex-direction: column;
+  position: fixed;
+  width: 100vw;
+  height: 100%;
+  background-color: #d3d3d3;
+  align-items: center;
+}
+
+#mobile-menu #close-btn {
+  align-self: flex-start;
+  margin-top: 20px;
+  padding-left: 15px;
+  font-size: 30px;
+}
+
+#mobile-menu a {
+  margin-top: 10%;
+  color: #272a31;
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  border-bottom: 1px solid #ec5242;
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+}
+
 #menu-icon {
   margin-left: 15px;
 }
@@ -44,4 +72,64 @@ main > * {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+#titles {
+  color: #ec5242;
+}
+
+#upper-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  padding-top: 15px;
+  margin-bottom: 0;
+}
+
+#main-title {
+  font-family: 'COCOGOOSE', sans-serif;
+  line-height: 1;
+  font-weight: normal;
+} 
+
+.content #C2020 {
+  background-image: url('./images/Conference1.jpg');
+  background-size: 100%;
+  margin: 0 10% 20px 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.content #C2018 {
+  background-image: url('./images/Conference2.jpg'); 
+  background-size: 100%; 
+  height: 100%;
+  width: 100%;
+}
+
+.background-orange {
+  background-color: rgba(236, 82, 65, 0.7);
+  min-height: 100%;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content h3 {
+  font-size: 35px;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  margin-top: 70px;
+}
+
+.content .national {
+  margin-top: 0;
+  margin-bottom: 70px;
+  font-weight: bold;
+}
+
+.content h3,
+.content .national {
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
 }
