@@ -1,0 +1,140 @@
+@import url('http://fonts.cdnfonts.com/css/cocogoose');
+      
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body > *{
+  padding: 0 15px;
+}
+
+header {
+  display: flex;  
+  align-self: flex-start;
+  padding-top: 10px;
+}
+
+#menu-icon {
+  margin-left: 15px;
+}
+
+#menu-icon .line {
+  width: 30px;
+  height: 5px;
+  background-color: #272a31;
+  margin: 5px 0;
+}
+
+#upper-title {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
+#main-title {
+  color: #ec5242;
+  font-family: 'COCOGOOSE', sans-serif;
+  line-height: 1;
+  font-weight: normal;
+}
+
+#main-description {
+  padding-left: 15px;
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  line-height: 1.5;
+}
+
+#hour {
+  font-family: 'COCOGOOSE', sans-serif;
+  color: #272a31;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+#place {
+  font-family: 'Lato', sans-serif;
+  margin-top: 0;
+  margin-bottom: 80px;
+}
+
+#main-program {
+  background-color: #272a31;
+  display: flex;
+  flex-direction: column;
+}
+
+#h2-main-program{
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  align-self: center;
+  font-weight: 550;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.main-and-featured-line {
+  width: 40px;
+  height: 1px;
+  background-color: #ec5242;
+  align-self: center;
+  margin-bottom: 30px;
+}
+
+#main-program .program-section {
+  background-color: rgba(211, 211, 211, 0.1);
+  margin: 4px 0;
+}
+
+.program-section h3 {
+  color: #ec5242;
+  font-family: 'Lato', sans-serif;
+}
+
+#main-program-btn {
+  background-color: #ec5242;
+  height: 70px;
+  margin: 35px 40px;
+  padding: 0;
+  border: none;
+  color: #d3d3d3;
+  font-family: 'Lato', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+#featured-speakers {
+  display: flex;
+  flex-direction: column;
+}
+
+#featured-speakers-title {
+  align-self: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 550;
+  font-size: 20px;
+  line-height: 1;
+  color: #272a31;
+}
+
+#more-btn {
+  background-color: white;
+  border: #272a31 thin solid;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#more-btn div {
+  transform: rotate(90deg);
+  width: fit-content;
+  margin-left: 5px;
+  color: #ec5242;
+}
