@@ -8,6 +8,7 @@ body {
 
 body > *{
   padding: 0 15px;
+  font-family: 'Lato', sans-serif;
 }
 
 header {
@@ -67,7 +68,8 @@ main {
   flex-direction: column;
 }
 
-main > * {
+main > *,
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -94,22 +96,26 @@ main > * {
 .content #C2020 {
   background-image: url('./images/Conference1.jpg');
   background-size: 100%;
-  margin: 0 10% 20px 10%;
-  height: 100%;
-  width: 100%;
+  height: 150px;
+  width: 280px;
 }
 
 .content #C2018 {
   background-image: url('./images/Conference2.jpg'); 
   background-size: 100%; 
-  height: 100%;
-  width: 100%;
+  height: 150px;
+  width: 280px;
+}
+
+.previous {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column; /* change in media query */
 }
 
 .background-orange {
   background-color: rgba(236, 82, 65, 0.7);
-  min-height: 100%;
-  min-width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -118,18 +124,35 @@ main > * {
 .content h3 {
   font-size: 35px;
   font-weight: bolder;
-  margin-bottom: 5px;
-  margin-top: 70px;
+  margin: 0;
 }
 
 .content .national {
   margin-top: 0;
-  margin-bottom: 70px;
   font-weight: bold;
+  text-align: center;
 }
 
 .content h3,
 .content .national {
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
+}
+
+#partner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#partners {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 50px;
+  justify-content: center;
+}
+
+#partners img {
+  max-width: 25%;
+  max-height: 50px;
 }
