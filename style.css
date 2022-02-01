@@ -200,3 +200,21 @@ header {
   margin-left: 5px;
   color: #ec5242;
 }
+
+.desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #header-up {
+  }
+
+  #menu-icon {
+    display: none;
+  }
+}
