@@ -76,8 +76,21 @@ main > *,
   text-align: center;
 }
 
+#national {
+  border: gray 1px solid;
+}
+
 #titles {
   color: #ec5242;
+}
+
+.content a {
+  color: black;
+  font-weight: bolder;
+}
+
+.content p {
+  margin-bottom: 0;
 }
 
 #upper-title {
@@ -143,6 +156,7 @@ main > *,
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: #272a31;
 }
 
 #partners {
@@ -155,4 +169,13 @@ main > *,
 #partners img {
   max-width: 25%;
   max-height: 50px;
+}
+
+#partner h2 {
+  margin-bottom: 10px;
+  color: #d3d3d3;
+}
+
+#partner .orange-line {
+  margin-bottom: 20px;
 }
