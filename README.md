@@ -1,5 +1,7 @@
 ### Capstone Project 1
 
+- This is my first Capstone Project under the guidance of Microverse.
+
 ![imagen](https://user-images.githubusercontent.com/93448210/148102835-146307af-594e-42df-909c-22a943232d2a.png)
 
 # Build with
@@ -29,4 +31,6 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Microverse Linters, Instructions & Templates
+- Microverse Linters & Instructions.
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
