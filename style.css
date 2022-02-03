@@ -201,11 +201,6 @@ main {
   top: 15%;
 }
 
-.program-section img {
-  width: 70%;
-  margin-left: 12%;
-}
-
 #down img {
   width: 65%;
 }
@@ -298,10 +293,16 @@ main {
     justify-content: center;
   }
 
+  .program-section img {
+    width: 70%;
+    margin-left: 12%;
+  }
+
   #partners img {
     max-width: 25%;
     max-height: 25px;
   }
+
   a {
     font-family: 'Lato', sans-serif;
   }
@@ -474,7 +475,7 @@ main {
     color: #d3d3d3;
   }
 
- .orange-line {
+  .orange-line {
     width: 20px;
     height: 1px;
     background-color: #ec5242;
@@ -484,5 +485,4 @@ main {
   #partner .orange-line {
     margin-bottom: 20px;
   }
-
 }
