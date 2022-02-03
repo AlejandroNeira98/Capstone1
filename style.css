@@ -292,14 +292,15 @@ main {
   a {
     font-family: 'Lato', sans-serif;
   }
+
   .program-section img {
     max-width: 50px;
     margin: 10px 0;
   }
 
   #down img {
-      width: 65%;
-    }
+    width: 65%;
+  }
 
   #partners img {
     max-height: 30px;
@@ -309,10 +310,10 @@ main {
     max-width: 80%;
   }
 
-    main > * {
+  main > * {
     max-width: 768px;
     margin: auto;
-  }  
+  }
 
   .program-section > * {
     margin: 0;
@@ -329,7 +330,6 @@ main {
 
   #header-up .desktop-header-container > * {
     color: #d3d3d3;
-    margin-left: 5px;
     font-size: 70%;
     margin-left: 2%;
   }
