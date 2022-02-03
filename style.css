@@ -205,8 +205,6 @@ main {
   position: relative;
   left: 15%;
   top: 15%;
- /*  height: 100px;
-  width: 100px; */
 }
 
 .speaker-presentation {
@@ -260,14 +258,19 @@ main {
   justify-items: center;
 }
 
-
-
 .desktop {
   display: none;
 }
 
+.more {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
-  
+  .more{
+    display: flex;
+  }
+
   body {
     display: flex;
     flex-direction: column;

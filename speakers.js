@@ -40,7 +40,6 @@ const speakers = [
 let text= "";
 
 speakers.forEach(element => {
-  
   text = `
   
     <div class="profile-img">
@@ -56,8 +55,11 @@ speakers.forEach(element => {
   `;
   let speaker = document.createElement('div');
   speaker.classList.add('speaker');
+  if (element === speakers[2] || element === speakers[3] || element === speakers[4] || element === speakers[5])
+  {speaker.classList.add('more')}
+
   speaker.innerHTML = text;
 
-  const speakers = document.getElementById('featured-speakers');
-  speakers.insertBefore(speaker, document.getElementById('more-btn'));
+  const Fspeakers = document.getElementById('featured-speakers');
+  Fspeakers.insertBefore(speaker, document.getElementById('more-btn'));
 });
