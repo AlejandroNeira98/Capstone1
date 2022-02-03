@@ -1,17 +1,17 @@
 @import url('http://fonts.cdnfonts.com/css/cocogoose');
-      
+
 body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body > *{
+body > * {
   padding: 0 15px;
 }
 
 header {
-  display: flex;  
+  display: flex;
   align-self: flex-start;
   padding-top: 10px;
 }
@@ -83,7 +83,6 @@ main {
   max-width: 500px;
 }
 
-
 #hour {
   font-family: 'COCOGOOSE', sans-serif;
   color: #272a3194;
@@ -112,7 +111,7 @@ main {
   align-content: center;
 }
 
-#h2-main-program{
+#h2-main-program {
   color: #d3d3d3;
   font-family: 'Lato', sans-serif;
   align-self: center;
@@ -267,7 +266,7 @@ main {
 }
 
 @media screen and (min-width: 768px) {
-  .more{
+  .more {
     display: flex;
   }
 
@@ -295,8 +294,8 @@ main {
   }
 
   header {
-   align-self: center;
-   min-width: 100%;
+    align-self: center;
+    min-width: 100%;
   }
 
   .desktop-header-container {
@@ -375,7 +374,7 @@ main {
     min-width: 100%;
   }
 
-  main > *{
+  main > * {
     max-width: 768px;
     margin: auto;
   }
@@ -383,7 +382,7 @@ main {
   #titles {
     font-size: 150%;
   }
- 
+
   #main-program {
     justify-content: center;
     min-width: 100%;
@@ -424,7 +423,7 @@ main {
     margin: 0;
     min-width: fit-content;
   }
-  
+
   .program-section img {
     max-width: 50px;
     margin: 10px 0;
@@ -454,12 +453,13 @@ main {
   #more-btn {
     display: none;
   }
+
   #partner {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #272a31;
-}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272a31;
+  }
 
   #partners {
     display: flex;
@@ -492,9 +492,9 @@ main {
   }
 
   .orange-line {
-  width: 20px;
-  height: 1px;
-  background-color: #ec5242;
-  align-self: center;
-}
+    width: 20px;
+    height: 1px;
+    background-color: #ec5242;
+    align-self: center;
+  }
 }

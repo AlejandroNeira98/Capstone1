@@ -6,12 +6,12 @@ body {
   padding: 0;
 }
 
-body > *{
+body > * {
   font-family: 'Lato', sans-serif;
 }
 
 header {
-  display: flex;  
+  display: flex;
   align-self: flex-start;
   padding-top: 10px;
 }
@@ -133,7 +133,7 @@ main > *,
   font-family: 'COCOGOOSE', sans-serif;
   line-height: 1;
   font-weight: normal;
-} 
+}
 
 .previous {
   display: flex;
@@ -155,8 +155,8 @@ main > *,
 }
 
 #C2018 {
-  background-image: url('./images/medellin.jpg'); 
-  background-size: 100%; 
+  background-image: url('./images/medellin.jpg');
+  background-size: 100%;
 }
 
 .background-orange {
@@ -218,7 +218,6 @@ main > *,
 }
 
 @media screen and (min-width: 768px) {
-  
   body {
     display: flex;
     flex-direction: column;
@@ -241,8 +240,8 @@ main > *,
   }
 
   header {
-   align-self: center;
-   min-width: 100%;
+    align-self: center;
+    min-width: 100%;
   }
 
   .desktop-header-container {
@@ -337,7 +336,7 @@ main > *,
   .content span {
     display: inline;
   }
-  
+
   #C2020 {
     margin: 0;
   }
@@ -350,5 +349,4 @@ main > *,
     width: 100%;
     margin: 20px 0 40px 0;
   }
- 
 }
