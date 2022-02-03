@@ -283,15 +283,15 @@ main {
   color: #d3d3d3;
 }
 
-#partner .orange-line {
-  margin-bottom: 20px;
-}
-
 .orange-line {
   width: 20px;
   height: 1px;
   background-color: #ec5242;
   align-self: center;
+}
+
+#partner .orange-line {
+  margin-bottom: 20px;
 }
 
 .footer_container {
