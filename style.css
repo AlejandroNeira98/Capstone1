@@ -366,7 +366,8 @@ main {
 
   .program-section > * {
     margin: 0;
-    min-width: fit-content;
+    min-width: 100%;
+    text-align: center;
   }
 
   .desktop-header-container > * {
