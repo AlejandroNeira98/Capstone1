@@ -83,15 +83,11 @@ main > *,
   width: 90%;
   max-width: 900px;
   align-self: center;
-}
-
-#titles {
-  color: #ec5242;
   margin-bottom: 20px;
 }
 
 #national {
-  margin-bottom: 20px;
+  
 }
 
 #national p {
@@ -270,7 +266,6 @@ main > *,
 
   #header-up .desktop-header-container > * {
     color: #d3d3d3;
-    margin-left: 5px;
     font-size: 70%;
     margin-left: 2%;
   }
