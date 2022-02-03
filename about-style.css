@@ -33,6 +33,11 @@ header {
   font-size: 30px;
 }
 
+.content a {
+  color: black;
+  font-weight: bolder;
+}
+
 #mobile-menu a {
   margin-top: 10%;
   color: #272a31;
@@ -83,6 +88,7 @@ main > *,
   width: 90%;
   max-width: 900px;
   align-self: center;
+  margin-bottom: 20px;
 }
 
 #titles {
@@ -90,8 +96,8 @@ main > *,
   margin-bottom: 20px;
 }
 
-#national {
-  margin-bottom: 20px;
+.content p {
+  margin-bottom: 0;
 }
 
 #national p {
@@ -104,15 +110,6 @@ main > *,
 
 .content span {
   display: block;
-}
-
-.content a {
-  color: black;
-  font-weight: bolder;
-}
-
-.content p {
-  margin-bottom: 0;
 }
 
 .content img {
@@ -270,9 +267,12 @@ main > *,
 
   #header-up .desktop-header-container > * {
     color: #d3d3d3;
-    margin-left: 5px;
     font-size: 70%;
     margin-left: 2%;
+  }
+
+  #down img {
+    width: 65%;
   }
 
   #header-up .desktop-header-container a img {
@@ -283,10 +283,6 @@ main > *,
     display: flex;
     justify-content: center;
     min-height: 60px;
-  }
-
-  #down img {
-    width: 65%;
   }
 
   #down .desktop-header-container {
