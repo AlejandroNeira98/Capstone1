@@ -196,7 +196,7 @@ main > *,
 }
 
 #partners img {
-  /* max-width: 25%; */
+  max-width: 25%;
   max-height: 30px;
 }
 

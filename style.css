@@ -156,11 +156,6 @@ main {
   width: 20%;
 }
 
-.program-section img {
-  width: 70%;
-  margin-left: 12%;
-}
-
 #main-program-btn {
   background-color: #ec5242;
   height: 70px;
@@ -205,6 +200,20 @@ main {
   left: 15%;
   top: 15%;
 }
+
+.program-section img {
+  width: 70%;
+  margin-left: 12%;
+}
+
+#down img {
+  width: 65%;
+}
+
+#header-up .desktop-header-container a img {
+  max-width: 80%;
+}
+
 
 .speaker-presentation {
   max-width: 72%;
@@ -289,6 +298,10 @@ main {
     justify-content: center;
   }
 
+  #partners img {
+    max-width: 25%;
+    max-height: 25px;
+  }
   a {
     font-family: 'Lato', sans-serif;
   }
@@ -326,19 +339,11 @@ main {
     font-size: 70%;
     margin-left: 2%;
   }
-
-  #header-up .desktop-header-container a img {
-    max-width: 80%;
-  }
-
+  
   #down {
     display: flex;
     justify-content: center;
     min-height: 60px;
-  }
-
-  #down img {
-    width: 65%;
   }
 
   #down .desktop-header-container {
@@ -408,19 +413,12 @@ main {
     justify-content: center;
   }
 
-  #program-sections > * {
-    margin: 0 2px;
-  }
+  
 
   .program-section {
     flex-direction: column;
     width: 150px;
     align-items: center;
-  }
-
-  .program-section > * {
-    margin: 0;
-    /* min-width: fit-content; */
   }
 
   .program-section img {
@@ -467,6 +465,8 @@ main {
     gap: 20px 50px;
     justify-content: center;
     max-height: 30px;
+    width: 100%;
+    margin: 20px 0 40px 0;
   }
 
   #partner h2 {
@@ -485,8 +485,4 @@ main {
     margin-bottom: 20px;
   }
 
-  #partners {
-    width: 100%;
-    margin: 20px 0 40px 0;
-  }
 }
