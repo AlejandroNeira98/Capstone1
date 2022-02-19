@@ -1,0 +1,23 @@
+{
+  "name": "capstone1",
+  "version": "1.0.0",
+  "description": "- This is my first Capstone Project under the guidance of Microverse.",
+  "main": "mobile-menu.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroNeira98/Capstone1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroNeira98/Capstone1/issues"
+  },
+  "homepage": "https://github.com/AlejandroNeira98/Capstone1#readme",
+  "devDependencies": {
+    "hint": "^6.1.9"
+  }
+}
